@@ -52,7 +52,7 @@ function EditTask(props) {
         <TextArea
           value={updateTaskDescription}
           onChange={(event) => setUpdateTaskDescription(event.target.value)}
-          placeholder="Start typing to edit note"
+          placeholder="Start typing to edit task"
           autoSize={{
             minRows: 4,
             maxRows: 6,

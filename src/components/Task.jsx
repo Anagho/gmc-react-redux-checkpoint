@@ -52,7 +52,7 @@ const Task = ({ task }) => {
             title="Undo Task"
           />
         )}
-        <EditTask taskId={task.task_id} task_content={task.description} />
+        <EditTask taskId={task.task_id} description={task.description} />
 
         <Button
           icon={<DeleteOutlined className="text-red-500" />}
